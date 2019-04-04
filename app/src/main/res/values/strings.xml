@@ -1,0 +1,67 @@
+<resources>
+
+    <string name="app_name">FoE Calculator</string>
+    <string name="FoE_Logo">FoE Logo</string>
+
+    <!-- Main Menu -->
+    <string name="gb_calculator_button">GB Calculator</string>
+    <string name="gvg_sector_calculator">GvG Sector Cost</string>
+    <string name="trade_helper_button">Trade Helper</string>
+    <string name="gb_helper_button">Quick GB Bonus</string>
+    <string name="exit_button">Exit</string>
+
+    <!-- GB Calculator -->
+    <string name="lvl_up">I want to level up to:</string>
+    <string name="level">level</string>
+    <string name="text_box">text-box</string>
+    <string name="label1">label</string>
+    <string name="compute_button">Compute !</string>
+
+    <string name="TOTAL">Level cost</string>
+    <string name="INVESTMENT">Owner Investment</string>
+    <string name="DEF_REWARD">Default Reward</string>
+    <string name="SAFE_FP">FP to Secure</string>
+    <string name="REWARD_VALUE">Place Worth</string>
+    <string name="PLACES">Places</string>
+    <string name="PLACE_1">1</string>
+    <string name="PLACE_2">2</string>
+    <string name="PLACE_3">3</string>
+    <string name="PLACE_4">4</string>
+    <string name="PLACE_5">5</string>
+
+    <!-- GB Strings -->
+    <string name="GB_Chooser">Choose your Great Building !</string>
+    <string name="Arc">The Arc</string>
+    <string name="Alcatraz">Alcatraz</string>
+    <string name="Zeus">Statue of Zeus</string>
+    <string name="Aachen">Cathedral of Aachen</string>
+    <string name="Monte">Castel del Monte</string>
+
+    <!-- Era Strings -->
+    <string name="Era_chooser">Choose your Age / Era !</string>
+    <string name="Iron">Iron Age</string>
+    <string name="EMA">Early Middle Ages</string>
+    <string name="HMA">High Middle Ages</string>
+    <string name="LMA">Late Middle Ages</string>
+    <string name="Colonial">Colonial Age</string>
+    <string name="Industrial">Industrial Age</string>
+    <string name="Progressive">Progressive Age</string>
+    <string name="Modern">Modern Era</string>
+    <string name="Postmodern">Postmodern Era</string>
+    <string name="Contemporary">Contemporary Era</string>
+    <string name="Tomorrow">Tomorrow</string>
+    <string name="Future">Future Era</string>
+    <string name="Arctic">Arctic Future</string>
+    <string name="Oceanic">Oceanic Future</string>
+    <string name="Virtual">Virtual Future</string>
+
+    <!-- GvG Calculator -->
+    <string name="sectors">Write how many sectors you already have</string>
+    <string name="sectors_result">The next sector will cost</string>
+    <string name="sectors_result2">of each resource</string>
+
+    <!-- Bonus Calculator -->
+    <string name="input_hint">Enter the base amount</string>
+    <string name="result">x1.9</string>
+
+</resources>

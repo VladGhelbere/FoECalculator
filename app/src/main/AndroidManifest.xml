@@ -9,12 +9,13 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".GB_bonus_calculator"></activity>
-        <activity android:name=".GvG_Calculator" />
-        <activity android:name=".GB_Calculator" />
-        <activity android:name=".GB_Chooser" />
-        <activity android:name=".MainActivity">
+        android:theme="@style/AppTheme"
+        >
+        <activity android:name=".GB_bonus_calculator" android:screenOrientation="portrait"/>
+        <activity android:name=".GvG_Calculator" android:screenOrientation="portrait"/>
+        <activity android:name=".GB_Calculator" android:screenOrientation="portrait"/>
+        <activity android:name=".GB_Chooser" android:screenOrientation="portrait"/>
+        <activity android:name=".MainActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <action android:name="android.intent.action.VIEW" />

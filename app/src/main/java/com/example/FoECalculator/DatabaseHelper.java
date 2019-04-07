@@ -13,9 +13,9 @@ import java.io.InputStream;
 import java.io.OutputStream;
 
 public class DatabaseHelper extends SQLiteOpenHelper {
-    private static String DB_NAME = "foedb.db";
+    private static String DB_NAME = "foe.db";
     private static String DB_PATH = "";
-    private static final int DB_VERSION = 3;
+    private static final int DB_VERSION = 7;
 
     private SQLiteDatabase mDataBase;
     private final Context mContext;
@@ -65,7 +65,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
     private void copyDBFile() throws IOException {
         //InputStream mInput = mContext.getAssets().open(DB_NAME);
-        InputStream mInput = mContext.getResources().openRawResource(R.raw.foedb);
+        InputStream mInput = mContext.getResources().openRawResource(R.raw.foe);
         OutputStream mOutput = new FileOutputStream(DB_PATH + DB_NAME);
         byte[] mBuffer = new byte[1024];
         int mLength;
@@ -99,9 +99,9 @@ public class DatabaseHelper extends SQLiteOpenHelper {
             mNeedUpdate = true;
     }
 
-    public Cursor getData1(String table_name, String name,String lvl) {
+    public Cursor getData1(String table_name,String lvl) {
         SQLiteDatabase db = this.getWritableDatabase();
-        Cursor cursor = db.rawQuery("SELECT * FROM "+table_name+" WHERE GB = '"+name+"' AND LEVEL = "+lvl, null);
+        Cursor cursor = db.rawQuery("SELECT * FROM '"+table_name+"' WHERE LEVEL = "+lvl, null);
         return cursor;
     }
 

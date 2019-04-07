@@ -30,12 +30,29 @@
     <string name="PLACE_5">5</string>
 
     <!-- GB Strings -->
-    <string name="GB_Chooser">Choose your Great Building !</string>
-    <string name="Arc">The Arc</string>
+    <string name="GB_Chooser">Choose one of the Great Buildings down below !</string>
+    <string name="The_Arc">The Arc</string>
     <string name="Alcatraz">Alcatraz</string>
-    <string name="Zeus">Statue of Zeus</string>
-    <string name="Aachen">Cathedral of Aachen</string>
-    <string name="Monte">Castel del Monte</string>
+    <string name="Statue_of_Zeus">Statue of Zeus</string>
+    <string name="Cathedral_of_Aachen">Cathedral of Aachen</string>
+    <string name="Castel_del_Monte">Castel del Monte</string>
+    <string name="Arctic_Orangery">Arctic Orangery</string>
+    <string name="Atlantis_Museum">Atlantis Museum</string>
+    <string name="Cape_Canaveral">Cape Canaveral</string>
+    <string name="Chateau_Frontenac">Chateau Frontenac</string>
+    <string name="Hagia_Sophia">Hagia Sophia</string>
+    <string name="Himeji_Castle">Himeji Castle</string>
+    <string name="Innovation_Tower">Innovation Tower</string>
+    <string name="Lighthouse_of_Alexandria">Lighthouse of Alexandria</string>
+    <string name="Observatory">Observatory</string>
+    <string name="Rain_Forest_Project">Rain Forest Project</string>
+    <string name="Temple_of_Relics">Temple of Relics</string>
+    <string name="Terracotta_Army">Terracotta Army</string>
+    <string name="The_Blue_Galaxy">The Blue Galaxy</string>
+    <string name="The_Habitat">The Habitat</string>
+    <string name="The_Kraken">The Kraken</string>
+    <string name="Voyager_V1">Voyager V1</string>
+
 
     <!-- Era Strings -->
     <string name="Era_chooser">Choose your Age / Era !</string>
@@ -61,7 +78,8 @@
     <string name="sectors_result2">of each resource</string>
 
     <!-- Bonus Calculator -->
-    <string name="input_hint">Enter the base amount</string>
+    <string name="quick_bonus_title">Enter the base amount</string>
+    <string name="input_hint">write here</string>
     <string name="result">x1.9</string>
 
 </resources>

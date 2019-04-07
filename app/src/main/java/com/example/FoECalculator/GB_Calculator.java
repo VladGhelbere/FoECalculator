@@ -14,6 +14,7 @@ import android.widget.Toast;
 public class GB_Calculator extends AppCompatActivity {
 
     DatabaseHelper db;
+    private TextView gb_title;
     private EditText input_text;
     String lvl;
 
@@ -37,6 +38,7 @@ public class GB_Calculator extends AppCompatActivity {
     private TextView place3x3;
     private TextView place4x3;
     private TextView place5x3;
+    String chosed ="";
 
 
     @Override
@@ -44,7 +46,13 @@ public class GB_Calculator extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_gb__calculator);
 
+        Intent i = getIntent();
+        chosed = i.getStringExtra("chosed");
+
         input_text= findViewById(R.id.input1);
+
+        gb_title = findViewById(R.id.gb_title);
+        gb_title.setText(chosed);
 
         total = findViewById(R.id.total);
         self_donated = findViewById(R.id.self_donated);
@@ -75,12 +83,10 @@ public class GB_Calculator extends AppCompatActivity {
         if (lvl.matches("")) {
             Toast.makeText(getApplicationContext(), "Please insert a number", Toast.LENGTH_SHORT).show();
         } else {
-            Intent i = getIntent();
-            String chosed = i.getStringExtra("chosed");
-            Cursor cursor = db.getData1("gb_table", chosed, lvl);
+            Cursor cursor = db.getData1(chosed, lvl);
             closekeyboard();
             if (cursor.getCount() == 0) {
-                Toast.makeText(getApplicationContext(), "Choose a level between 1 and 80", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Choose a level between 1 and 100", Toast.LENGTH_SHORT).show();
             } else {
                 while (cursor.moveToNext()) {
 

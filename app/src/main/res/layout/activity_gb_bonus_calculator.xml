@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:background="@drawable/text_box"
         android:gravity="center"
-        android:text="@string/input_hint"
+        android:text="@string/quick_bonus_title"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
         android:textSize="25dp"
